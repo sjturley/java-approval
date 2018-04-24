@@ -1,0 +1,17 @@
+{
+  "display_name": "Java, Approval",
+
+  "image_name": "cyberdojofoundation/java_approval",
+
+  "visible_filenames": [
+    "Hiker.java",
+    "HikerTest.java",
+    "cyber-dojo.sh",
+    "HikerTest.hhgttg.approved.txt"
+  ],
+
+  "filename_extension" : [ ".java", ".txt" ],
+
+  "runner_choice": "stateless"
+
+}
