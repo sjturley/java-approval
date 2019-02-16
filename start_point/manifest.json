@@ -10,8 +10,5 @@
     "HikerTest.hhgttg.approved.txt"
   ],
 
-  "filename_extension" : [ ".java", ".txt" ],
-
-  "runner_choice": "stateless"
-
+  "filename_extension" : [ ".java", ".txt" ]
 }
