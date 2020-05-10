@@ -8,7 +8,7 @@
     "HikerTest.hhgttg.approved.txt"
   ],
   "hidden_filenames": [],
-  "max_seconds":10,
-  "tab_size":4,
+  "max_seconds": 10,
+  "tab_size": 4,
   "filename_extension" : [ ".java", ".txt" ]
 }
