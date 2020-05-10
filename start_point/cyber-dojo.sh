@@ -3,9 +3,9 @@ set -e
 
 cd ${CYBER_DOJO_SANDBOX}
 
-# Currently using /approval in the classpath causes fatal errors such as
+# Currently, using /approval in the classpath causes fatal errors such as
 # java.nio.file.AccessDeniedException: /approval/zipfstmp5701121991682355433.tmp
-# This is because /approval is a read-only file system.
+# This is because /approval is read-only.
 # Working around this for now...
 cp -r /approval /tmp
 CLASSES=.:`ls /tmp/approval/*.jar | tr '\n' ':'`
