@@ -11,5 +11,5 @@
   "filename_extension" : [ ".java", ".txt" ],
   "max_seconds": 10,
   "tab_size": 4,
-  "hidden_filenames": ["*.class"]
+  "hidden_filenames": [".*[.]class"]
 }
