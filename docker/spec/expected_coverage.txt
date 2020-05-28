@@ -1,0 +1,18 @@
+GildedRose.java missing branches
+  Line 10 1 missing branch
+  Line 11 1 missing branch
+  Line 13 1 missing branch
+  Line 18 2 missing branches
+  Line 21 2 missing branches
+  Line 22 2 missing branches
+  Line 23 2 missing branches
+  Line 28 2 missing branches
+  Line 29 2 missing branches
+  Line 37 1 missing branch
+  Line 42 1 missing branch
+  Line 43 1 missing branch
+  Line 44 1 missing branch
+  Line 45 2 missing branches
+  Line 53 2 missing branches
+Item.java missing branches
+  No missing branches

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN" "report.dtd">
+<report name="JaCoCo Coverage Report">
+  <sessioninfo id="SteveTurleys-MacBook-Pro.local-6e40e859" start="1590600441206" dump="1590600442689"/>
+  <package name="">
+    <class name="Item" sourcefilename="Item.java">
+      <method name="&lt;init&gt;" desc="(Ljava/lang/String;II)V" line="9">
+        <counter type="INSTRUCTION" missed="0" covered="12"/>
+        <counter type="LINE" missed="0" covered="5"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <method name="toString" desc="()Ljava/lang/String;" line="17">
+        <counter type="INSTRUCTION" missed="0" covered="8"/>
+        <counter type="LINE" missed="0" covered="1"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <counter type="INSTRUCTION" missed="0" covered="20"/>
+      <counter type="LINE" missed="0" covered="6"/>
+      <counter type="COMPLEXITY" missed="0" covered="2"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </class>
+    <class name="GildedRose" sourcefilename="GildedRose.java">
+      <method name="&lt;init&gt;" desc="([LItem;)V" line="4">
+        <counter type="INSTRUCTION" missed="0" covered="6"/>
+        <counter type="LINE" missed="0" covered="3"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <method name="updateItems" desc="()V" line="9">
+        <counter type="INSTRUCTION" missed="136" covered="101"/>
+        <counter type="BRANCH" missed="23" covered="13"/>
+        <counter type="LINE" missed="14" covered="13"/>
+        <counter type="COMPLEXITY" missed="15" covered="4"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <counter type="INSTRUCTION" missed="136" covered="107"/>
+      <counter type="BRANCH" missed="23" covered="13"/>
+      <counter type="LINE" missed="14" covered="16"/>
+      <counter type="COMPLEXITY" missed="15" covered="5"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </class>
+    <class name="GildedRoseTest" sourcefilename="GildedRoseTest.java">
+      <method name="&lt;init&gt;" desc="()V" line="9">
+        <counter type="INSTRUCTION" missed="0" covered="3"/>
+        <counter type="LINE" missed="0" covered="1"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <method name="approveGildedRose" desc="()V" line="16">
+        <counter type="INSTRUCTION" missed="7" covered="33"/>
+        <counter type="LINE" missed="2" covered="3"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <method name="runGildedRose" desc="(Ljava/lang/String;II)LItem;" line="27">
+        <counter type="INSTRUCTION" missed="0" covered="24"/>
+        <counter type="LINE" missed="0" covered="4"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+      </method>
+      <counter type="INSTRUCTION" missed="7" covered="60"/>
+      <counter type="LINE" missed="2" covered="8"/>
+      <counter type="COMPLEXITY" missed="0" covered="3"/>
+      <counter type="METHOD" missed="0" covered="3"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </class>
+    <sourcefile name="GildedRose.java">
+      <line nr="4" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="5" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="6" mi="0" ci="1" mb="0" cb="0"/>
+      <line nr="9" mi="0" ci="9" mb="0" cb="2"/>
+      <line nr="10" mi="0" ci="14" mb="1" cb="1"/>
+      <line nr="11" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="12" mi="0" ci="6" mb="0" cb="2"/>
+      <line nr="13" mi="0" ci="8" mb="1" cb="1"/>
+      <line nr="14" mi="0" ci="13" mb="0" cb="0"/>
+      <line nr="18" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="19" mi="12" ci="0" mb="0" cb="0"/>
+      <line nr="21" mi="8" ci="0" mb="2" cb="0"/>
+      <line nr="22" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="23" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="24" mi="12" ci="0" mb="0" cb="0"/>
+      <line nr="28" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="29" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="30" mi="12" ci="0" mb="0" cb="0"/>
+      <line nr="37" mi="0" ci="8" mb="1" cb="1"/>
+      <line nr="38" mi="0" ci="12" mb="0" cb="0"/>
+      <line nr="41" mi="0" ci="6" mb="0" cb="2"/>
+      <line nr="42" mi="0" ci="8" mb="1" cb="1"/>
+      <line nr="43" mi="0" ci="8" mb="1" cb="1"/>
+      <line nr="44" mi="0" ci="6" mb="1" cb="1"/>
+      <line nr="45" mi="8" ci="0" mb="2" cb="0"/>
+      <line nr="46" mi="13" ci="0" mb="0" cb="0"/>
+      <line nr="50" mi="17" ci="0" mb="0" cb="0"/>
+      <line nr="53" mi="7" ci="0" mb="2" cb="0"/>
+      <line nr="54" mi="12" ci="0" mb="0" cb="0"/>
+      <line nr="59" mi="0" ci="1" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="136" covered="107"/>
+      <counter type="BRANCH" missed="23" covered="13"/>
+      <counter type="LINE" missed="14" covered="16"/>
+      <counter type="COMPLEXITY" missed="15" covered="5"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+    <sourcefile name="Item.java">
+      <line nr="9" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="10" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="11" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="12" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="13" mi="0" ci="1" mb="0" cb="0"/>
+      <line nr="17" mi="0" ci="8" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="0" covered="20"/>
+      <counter type="LINE" missed="0" covered="6"/>
+      <counter type="COMPLEXITY" missed="0" covered="2"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+    <sourcefile name="GildedRoseTest.java">
+      <line nr="9" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="16" mi="0" ci="7" mb="0" cb="0"/>
+      <line nr="17" mi="0" ci="13" mb="0" cb="0"/>
+      <line nr="18" mi="0" ci="13" mb="0" cb="0"/>
+      <line nr="19" mi="6" ci="0" mb="0" cb="0"/>
+      <line nr="24" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="27" mi="0" ci="12" mb="0" cb="0"/>
+      <line nr="28" mi="0" ci="5" mb="0" cb="0"/>
+      <line nr="29" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="30" mi="0" ci="5" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="7" covered="60"/>
+      <counter type="LINE" missed="2" covered="8"/>
+      <counter type="COMPLEXITY" missed="0" covered="3"/>
+      <counter type="METHOD" missed="0" covered="3"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+    <counter type="INSTRUCTION" missed="143" covered="187"/>
+    <counter type="BRANCH" missed="23" covered="13"/>
+    <counter type="LINE" missed="16" covered="30"/>
+    <counter type="COMPLEXITY" missed="15" covered="10"/>
+    <counter type="METHOD" missed="0" covered="7"/>
+    <counter type="CLASS" missed="0" covered="3"/>
+  </package>
+  <counter type="INSTRUCTION" missed="143" covered="187"/>
+  <counter type="BRANCH" missed="23" covered="13"/>
+  <counter type="LINE" missed="16" covered="30"/>
+  <counter type="COMPLEXITY" missed="15" covered="10"/>
+  <counter type="METHOD" missed="0" covered="7"/>
+  <counter type="CLASS" missed="0" covered="3"/>
+</report>
