@@ -16,8 +16,36 @@ LABEL maintainer=steve@turleylabs.com
 COPY /jars/* /approval/
 ENV CLASSPATH=/approval/
 
-RUN apt-get install ruby
 RUN apk add --no-cache build-base
+apk add --no-cache --virtual .ruby-builddeps \
+		autoconf \
+		bison \
+		bzip2 \
+		bzip2-dev \
+		ca-certificates \
+		coreutils \
+		dpkg-dev dpkg \
+		gcc \
+		gdbm-dev \
+		glib-dev \
+		libc-dev \
+		libffi-dev \
+		libxml2-dev \
+		libxslt-dev \
+		linux-headers \
+		make \
+		ncurses-dev \
+		openssl \
+		openssl-dev \
+		procps \
+		readline-dev \
+		ruby \
+		tar \
+		xz \
+		yaml-dev \
+		zlib-dev
+
+RUN apk add ruby
 RUN gem install nokogiri
 COPY /lib/*.rb /approval/
 
