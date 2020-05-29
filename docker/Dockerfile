@@ -17,7 +17,7 @@ COPY /jars/* /approval/
 ENV CLASSPATH=/approval/
 
 RUN apk add --no-cache build-base
-apk add --no-cache --virtual .ruby-builddeps \
+RUN apk add --no-cache --virtual .ruby-builddeps \
 		autoconf \
 		bison \
 		bzip2 \
@@ -45,8 +45,8 @@ apk add --no-cache --virtual .ruby-builddeps \
 		yaml-dev \
 		zlib-dev
 
-RUN apk add ruby
+RUN apk add ruby ruby-dev
 RUN gem install nokogiri
-COPY /lib/*.rb /approval/
+COPY /lib/* /approval/
 
 COPY red_amber_green.rb /usr/local/bin
