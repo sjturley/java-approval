@@ -11,9 +11,14 @@ RUN apk add --update coreutils bash tar file
 # END of extra commands to fulfil runner's requirements
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-LABEL maintainer=jon@jaggersoft.com
+LABEL maintainer=steve@turleylabs.com
 
 COPY /jars/* /approval/
 ENV CLASSPATH=/approval/
+
+RUN apt-get install ruby
+RUN apk add --no-cache build-base
+RUN gem install nokogiri
+COPY /lib/*.rb /approval/
 
 COPY red_amber_green.rb /usr/local/bin
